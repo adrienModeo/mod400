@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mode400"
+version = "0.1.0"
+description = ""
+authors = ["Adrien Philippe <adrien@modeo.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.31"
+isort = "^5.13.2"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
